@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>National Park</title>
+    <link rel="shortcut icon" type="image" href="./image/logo.png">
+    <link rel="stylesheet" href="style.css">
+    <!-- bootstrap links -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <!-- bootstrap links -->
+    <!-- fonts links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Uchen&display=swap" rel="stylesheet">
+    <!-- fonts links -->
+    <!-- icons links -->
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <!-- icons links -->
+    <!-- animation links -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- animation links -->
+</head>
+
+<body>
+    <div class="all-content">
+        <!-- navbar -->
+        <nav class="navbar navbar-expand-lg" id="navbar">
+            <!-- Brand -->
+            <a class="navbar-brand" href="#" id="logo"><img src="./image/logo.png" alt="" width="50px">National Park</a>
+
+            <!-- Toggler/collapsibe Button -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span><img src="./image/menu.png" alt="" width="30px"></span>
+            </button>
+
+            <!-- Navbar links -->
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav mx-auto ">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#product-cards">Parks</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#gallary">Galary</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+
+            </div>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <div class="icons mx-auto">
+                    <img src="./image/user.png" alt="" width="20px">
+                    <img src="./image/heart.png" alt="" width="20px">
+                    <img src="./image/add.png" alt="" width="24px">
+                </div>
+            </div>
+
+
+        </nav>
+        <!-- navbar end -->
+
+
+
+        <!-- home section -->
+        <div class="home">
+            <div class="content" data-aos="zoom-out-right">
+                <h3>Learn, </h3>
+                <h3>Explore, Value
+                </h3>
+                <p>the magnificent diversity
+                    <br>of the animal kingdom.
+                </p>
+            </div>
+            <div class="img" data-aos="zoom-out-left">
+                <img src="./image/background.png" alt="">
+            </div>
+        </div>
+        <!-- home section end -->
+
+        <!-- top cards -->
+        <div class="container" id="box" data-aos="fade-up" data-aos-duration="1500">
+            <div class="row">
+                <div class="col-md-4 py-3 py-md-0">
+                    <div class="card">
+                        <img src="./image/box1.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-md-4 py-3 py-md-0">
+                    <div class="card">
+                        <img src="./image/box2.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-md-4 py-3 py-md-0">
+                    <div class="card">
+                        <img src="./image/box3.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- top cards end -->
+
+        <!-- Park cards -->
+        <section id="product-cards" data-aos="fade-up" data-aos-duration="1500">
+            <div class="container">
+                <h1>PARKS</h1>
+                <div class="row" style="margin-top:50px;">
+                    <div class="col-md-3 py-3 py-md-0">
+                        <div class="card">
+                            <img src="./image/c1.jpg" alt="">
+                            <div class="card-body">
+                                <h3>Khirthar National Park</h3>
+                                <p>The Kirthar National Park is situated in the Kirthar Mountains in Jamshoro District
+                                    in Sindh, Pakistan.</p>
+                                <h6><span><button id="read1">Read...</button></span></h6>
+                                <div id="details1" class="details-box"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 py-3 py-md-0">
+                        <div class="card">
+                            <img src="./image/c2.jpg" alt="">
+                            <div class="card-body">
+                                <h3>Hingol Balochistan National Park</h3>
+                                <p>Hingol National Park is one of the largest national parks in Pakistan.</p>
+                                <h6><span><button id="read2">Read...</button></span></h6>
+                                <div id="details2" class="details-box"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 py-3 py-md-0">
+                        <div class="card">
+                            <img src="./image/c3.jpg" alt="">
+                            <div class="card-body">
+                                <h3>Khunjerab National Park</h3>
+                                <p>Khunjerab National Park is Pakistan's third largest national park located in Gilgit
+                                    Baltistan</p>
+                                <h6><span><button id="read3">Read...</button></span></h6>
+                                <div id="details3" class="details-box"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 py-3 py-md-0">
+                        <div class="card">
+                            <img src="./image/c4.jpg" alt="">
+                            <div class="card-body">
+                                <h3>Chitral Gol National Park</h3>
+                                <p>It is located in Lower Chitral District in Khyber-Pakhtunkhwa province of Pakistan
+                                </p>
+                                <h6><span><button id="read4">Read...</button></span></h6>
+                                <div id="details4" class="details-box"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+
+                <div class="row" style="margin-top:50px;" data-aos="fade-up" data-aos-duration="1500">
+                    <div class="col-md-3 py-3 py-md-0">
+                        <div class="card">
+                            <img src="./image/c5.jpg" alt="">
+                            <div class="card-body">
+                                <h3>Ayub National Park</h3>
+                                <p>Ayub National Park, commonly known as Ayub Park or, historically, Topi Rakh Park.
+                                    located the Grand Trunk Road</p>
+                                <h6><span><button id="read5">Read...</button></span></h6>
+                                <div id="details5" class="details-box"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 py-3 py-md-0">
+                        <div class="card">
+                            <img src="./image/c6.jpg" alt="">
+                            <div class="card-body">
+                                <h3>Chinji National Park</h3>
+                                <p>Chinji National Park, established in 1987, a protected area of IUCN category II
+                                    located Sargodha.</p>
+                                <h6><span><button id="read6">Read...</button></span></h6>
+                                <div id="details6" class="details-box"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 py-3 py-md-0">
+                        <div class="card">
+                            <img src="./image/c7.jpg" alt="">
+                            <div class="card-body">
+                                <h3>Badlands National Park</h3>
+                                <p>The Badlands Loop Road (Highway 240) winds past scenic lookouts.</p>
+                                <h6><span><button id="read7">Read...</button></span></h6>
+                                <div id="details7" class="details-box"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 py-3 py-md-0">
+                        <div class="card">
+                            <img src="./image/c8.jpg" alt="">
+                            <div class="card-body">
+                                <h3>Deosai National Park</h3>
+                                <p>Deosai National Park is a high-altitude alpine plain and national park located
+                                    between Skardu.</p>
+                                <h6><span><button id="read8">Read...</button></span></h6>
+                                <div id="details8" class="details-box"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Park cards end-->
+
+
+        <!-- gallary -->
+        <section id="gallary" data-aos="fade-up" data-aos-duration="1500">
+            <div class="container">
+                <h1>OUR GALLARY</h1>
+                <div class="row" style="margin-top: 30px;">
+                    <div class="col-md-4 py-3 py-md-0">
+                        <div class="card">
+                            <div class="overlay">
+                                <h3 class="text-center">Khirthar National Park</h3>
+                            </div>
+                            <img src="./image/01.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-md-4 py-3 py-md-0">
+                        <div class="card">
+                            <div class="overlay">
+                                <h3 class="text-center">Hingol Balochistan</h3>
+                            </div>
+                            <img src="./image/02.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-md-4 py-3 py-md-0">
+                        <div class="card">
+                            <div class="overlay">
+                                <h3 class="text-center">Khunjerab National Park</h3>
+                            </div>
+                            <img src="./image/03.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+        <!-- gallary -->
+
+        <!-- Add this code where you want the map to appear -->
+    
+        <!-- about -->
+        <div class="container" id="about" data-aos="fade-up" data-aos-duration="1500">
+            <h1>ABOUT US</h1>
+            <div class="row">
+                <div class="col-md-6 py-3 py-md-0">
+                    <div class="card">
+                        <img src="./image/background.png" alt="">
+                    </div>
+                </div>
+                <div class="col-md-6 py-3 py-md-0">
+                    <p>Welcome to Pakistan National Parks, your gateway to exploring the breathtaking natural wonders of
+                        Pakistan. Our website is dedicated to providing you with comprehensive information, stunning
+                        visuals, and engaging narratives about the diverse and beautiful national parks across the
+                        country. Whether you're a nature enthusiast, an avid traveler, or simply curious about the
+                        natural heritage of Pakistan, we've got you covered. </p>
+
+                    <h1>Our Mission</h1>
+                    <p>At Pakistan National Parks, we're passionate about showcasing the breathtaking natural wonders of
+                        our country. Through captivating imagery and insightful information, we aim to inspire
+                        exploration
+                        and appreciation for Pakistan's diverse landscapes. Our platform serves as a guide for adventure
+                        seekers, nature enthusiasts, and curious minds alike, providing valuable insights into each
+                        national
+                        park's unique features and conservation efforts. Join us on a journey of discovery as we
+                        celebrate
+                        the beauty and significance of Pakistan's national parks. Welcome to your ultimate resource for
+                        exploring the great outdoors in Pakistan!
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!-- about -->
+
+
+        <!-- contact  -->
+        <div class="container" id="contact" data-aos="fade-up" data-aos-duration="1500">
+            <h1>CONTACT US</h1>
+            <div class="row">
+                <div class="col-md-4 py-1 py-md-0">
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="usr" placeholder="Name">
+                    </div>
+                </div>
+                <div class="col-md-4 py-1 py-md-0">
+                    <div class="form-group">
+                        <input type="email" class="form-control" id="eml" placeholder="Email">
+                    </div>
+                </div>
+                <div class="col-md-4 py-1 py-md-0">
+                    <div class="form-group">
+                        <input type="number" class="form-control" id="phn" placeholder="Phone">
+                    </div>
+                </div>
+
+            </div>
+            <div class="form-group">
+                <textarea class="form-control" rows="5" id="comment" placeholder="Message"></textarea>
+            </div>
+            <div id="messagebtn"><button>Send Message</button></div>
+        </div>
+        <!-- contact end -->
+
+
+        <!-- footer -->
+        <footer id="footer" data-aos="fade-up" data-aos-duration="1500">
+            <h1 class="text-center">National Park</h1>
+            <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, accusantium.</p>
+            <div class="icons text-center">
+                <i class="bx bxl-twitter"></i>
+                <i class="bx bxl-facebook"></i>
+                <i class="bx bxl-google"></i>
+                <i class="bx bxl-skype"></i>
+                <i class="bx bxl-instagram"></i>
+            </div>
+            <div class="copyright text-center">
+                &copy; Copyright <strong>National Park</strong> .All Rights Reserved
+            </div>
+            <!-- footer -->
+
+            <a href="#" class="arrow"><i><img src="./image/up-arrow.png" alt="" width="50px"></i></a>
+
+
+
+    </div>
+
+
+
+
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="scrpt.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
