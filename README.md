@@ -1,232 +1,344 @@
-WEBSITE REPORT: NATIONAL PARK
+# 🌿 National Park Responsive Website
+
+![HTML5](https://img.shields.io/badge/HTML5-Structure-orange?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-Styling-blue?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-Interactivity-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-Responsive_UI-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)
+![Responsive](https://img.shields.io/badge/Responsive-Design-success?style=for-the-badge)
+
+A clean, attractive, and fully responsive **National Park website** created using **HTML5, CSS3, JavaScript, Bootstrap 4, AOS animations, Google Fonts, and image assets**.
+
+This project is designed to showcase different national parks, wildlife information, gallery images, park details, embedded map locations, an about section, and a contact form using a modern nature-themed user interface.
+
+---
+
+## 🌐 Live Demo
+
+Add your deployed project link here:
+
+```text
+https://your-live-demo-link.com
+```
+
+---
+
+## 📖 About the Project
+
+**National Park Responsive Website** is a front-end web development project created to present information about national parks and wildlife in a visually engaging way.
+
+The website contains multiple sections such as a responsive navigation bar, hero section, park cards, image gallery, about section, contact form, and footer. It also includes interactive **Read More** buttons that display additional park details, wildlife images, and embedded Google Maps locations.
+
+The main goal of this project is to practice real-world front-end website structure, responsive design, Bootstrap layout, custom CSS styling, JavaScript DOM manipulation, and UI section development.
+
+---
+
+## ✨ Features
+
+- Clean and modern nature-themed website design
+- Fully responsive layout for desktop, tablet, and mobile screens
+- Responsive Bootstrap navbar with collapsible menu
+- Hero section with background image and strong introductory text
+- Top image cards for visual highlights
+- Park cards section with park name, image, and short description
+- Interactive **Read More** functionality using JavaScript
+- Additional park details displayed dynamically
+- Wildlife images shown inside detail boxes
+- Embedded Google Maps location for each park
+- Gallery section with hover overlay effect
+- About section with website introduction
+- Contact form design for user messages
+- Professional footer with social media icons
+- AOS scroll animations for smooth user experience
+- Organized image assets folder
+- Custom CSS media queries for responsiveness
 
-PROJECT MADE BY DANISH KHAN
+---
 
-Overview
+## 🛠️ Tech Stack
 
-The National Park website is a visually appealing and user-friendly site designed to showcase various national parks. The website is built using HTML, CSS, and JavaScript, with a focus on a clean and minimalist design.
+| Technology | Purpose |
+|---|---|
+| HTML5 | Website structure and semantic content |
+| CSS3 | Custom styling, layout, hover effects, and responsive design |
+| JavaScript | Interactivity and dynamic park detail display |
+| Bootstrap 4 | Grid system, responsive navbar, cards, and layout utilities |
+| AOS Library | Scroll-based animations |
+| Boxicons | Icons and social media icons |
+| Google Fonts | Custom typography using the Uchen font |
+| Google Maps Embed | Park location display |
+| JPG / PNG Assets | Park images, wildlife images, icons, logo, and backgrounds |
 
-Functional Requirements:
+---
 
+## 📂 Folder Structure
 
+```bash
+National_Park_Project_Responsive-main/
+│
+├── index.html
+├── style.css
+├── scrpt.js
+├── README.md
+├── WEBSITE REPORT.docx
+│
+└── image/
+    ├── logo.png
+    ├── menu.png
+    ├── user.png
+    ├── heart.png
+    ├── add.png
+    ├── background.png
+    ├── background2.png
+    ├── box1.jpg
+    ├── box2.jpg
+    ├── box3.jpg
+    ├── c1.jpg
+    ├── c2.jpg
+    ├── c3.jpg
+    ├── c4.jpg
+    ├── c5.jpg
+    ├── c6.jpg
+    ├── c7.jpg
+    ├── c8.jpg
+    └── other park and wildlife images
+```
 
-User Management:
+---
 
-Users can browse the website without logging in.
+## 🧩 Website Sections
 
-Registered users can log in to access exclusive content and features.
+### 1. Navbar
 
-National Park Information:
+The website includes a responsive Bootstrap navigation bar with:
 
-The website will display information about various national parks in Pakistan, including:
+- Website logo
+- Home link
+- Parks link
+- Gallery link
+- About link
+- Contact link
+- User, heart, and add icons
+- Mobile-friendly collapsible menu
 
-Park name and location
+---
 
-Description and history
+### 2. Hero Section
 
-Images and videos
+The hero section contains a large nature-themed background with the main message:
 
-Conservation efforts and initiatives Users can search for national parks by name, location, or category.
+> Learn, Explore, Value the magnificent diversity of the animal kingdom.
 
-Gallery:
+It is designed to immediately introduce the website purpose and create a strong visual impact.
 
-A photo gallery will display images of national parks, wildlife, and landscapes.
+---
 
-Users can browse and search images by category or tag.
+### 3. Top Cards Section
 
-News and Updates:
+This section displays three large image cards. These cards improve the visual appearance of the homepage and make the design more engaging.
 
-The website will feature news articles and updates about national parks, conservation efforts, and related events.
+---
 
-Contact and Feedback:
+### 4. Parks Section
 
-A contact form will allow users to send feedback, suggestions, or inquiries.
+The parks section contains multiple national park cards with images, short descriptions, and interactive **Read More** buttons.
 
-A phone number and email address will be provided for user support.
+Included parks:
 
+- Khirthar National Park
+- Hingol Balochistan National Park
+- Khunjerab National Park
+- Chitral Gol National Park
+- Ayub National Park
+- Chinji National Park
+- Badlands National Park
+- Deosai National Park
 
+Each card is designed with a dark green theme to match the natural and wildlife-based concept of the website.
 
-Non-Functional Requirements:
+---
 
+### 5. Dynamic Park Details
 
+The project includes JavaScript functionality that displays extra details when the user clicks on a **Read More** button.
 
-Performance:
+For each park, the website can display:
 
-The website will respond to user input within 2 seconds.
+- Extended park description
+- Wildlife images
+- Animal names
+- Embedded Google Maps location
 
-The website will handle at least 100 concurrent users.
+Only one detail box is shown at a time, which keeps the interface clean and easy to use.
 
-Security:
+---
 
-The website will use HTTPS encryption for secure browsing.
+### 6. Gallery Section
 
-User data will be stored securely and in compliance with privacy regulations.
+The gallery section displays national park images in a clean grid layout. Images include hover overlay effects to make the gallery more interactive and visually attractive.
 
+---
 
+### 7. About Section
 
-Usability:
+The about section explains the purpose of the website and introduces the idea of learning about national parks, biodiversity, and wildlife conservation.
 
-The website will be accessible on desktop, tablet, and mobile devices.
+---
 
-Maintainability:
+### 8. Contact Section
 
-The website will be built using modular, scalable architecture.
+The contact section includes a form design with fields for:
 
+- Name
+- Email
+- Phone number
+- Message
 
+This section gives the website a complete professional structure.
 
-User Interface Requirements:
+---
 
-Homepage:
+### 9. Footer
 
-A hero section with a background image and text.
+The footer includes:
 
-A navigation menu and search bar.
+- Website name
+- Short description
+- Social media icons
+- Copyright text
+- Back-to-top icon
 
-National Park Pages:
+---
 
-A header with park name and location.
+## ⚙️ How to Run the Project
 
-A description and history section.
+This is a static front-end website, so you do not need to install Node.js, npm, or any backend server.
 
-An image gallery and videos section.
+### Option 1: Open Directly
 
-A conservation efforts and initiatives section.
+1. Download or clone the repository.
+2. Open the project folder.
+3. Double-click on `index.html`.
+4. The website will open in your browser.
 
-Gallery:
+---
 
-A grid or masonry layout for image display.
+### Option 2: Run with VS Code Live Server
 
-A search bar and category filters.
+1. Open the project folder in **VS Code**.
+2. Install the **Live Server** extension.
+3. Right-click on `index.html`.
+4. Select **Open with Live Server**.
 
+---
 
+## 📥 Clone Repository
 
+```bash
+git clone https://github.com/danishkhan136/National_Park_Project_Responsive.git
+```
 
+```bash
+cd National_Park_Project_Responsive
+```
 
+Then open `index.html` in your browser or run it with VS Code Live Server.
 
+---
 
-Structure and Design
+## 🧠 JavaScript Functionality
 
-HTML (index.html)
+The main JavaScript file is:
 
-•	Doctype and Head Section:
+```bash
+scrpt.js
+```
 
-o	The website uses HTML5 doctype.
+It handles the interactive park detail system.
 
-o	The head section includes meta tags for charset, compatibility, and viewport settings to ensure responsiveness.
+When a user clicks a **Read More** button:
 
-o	External resources include Bootstrap for responsive design, Google Fonts for typography, Box icons for icons, and AOS for animations.
+1. The previous detail box is hidden.
+2. The selected park detail box is cleared.
+3. New park information is inserted dynamically.
+4. Wildlife images are added.
+5. A Google Maps iframe is added.
+6. The selected detail box is displayed.
+7. The clicked button is hidden.
 
-•	Body Structure:
+This improves user interaction without reloading the page.
 
-o	Navbar: Features a logo, navigation links (Home, Parks, Gallery, About, Contact), and icon links for user actions.
+---
 
-o	Home Section: Includes a background image with overlaid text promoting learning, exploration, and valuing biodiversity.
+## 📱 Responsive Design
 
-o	Top Cards Section: Displays three image cards representing different attractions or highlights.
+The website is responsive because it uses:
 
-o	Park Cards Section: Showcases various national parks with images, descriptions, and read-more buttons.
+- Bootstrap grid system
+- Bootstrap navbar collapse
+- Flexible layout using CSS flexbox
+- Custom media queries
+- Responsive images
+- Mobile-friendly spacing
 
-o	Gallery Section: Highlights images of parks with overlay text.
+The layout adjusts properly on smaller devices and keeps the content readable and organized.
 
-o	About Section: Provides information about the website or organization with an image and text content.
+---
 
-o	Contact Section: Features a form for users to get in touch, including fields for name, email, phone, and message.
+## 🎯 What I Learned
 
-o	Footer: Contains social media icons and copyright information.
+During this project, I practiced and improved my skills in:
 
+- Creating a complete front-end website
+- Structuring HTML pages professionally
+- Using Bootstrap classes for layout and responsiveness
+- Designing cards, navbar, hero section, gallery, contact form, and footer
+- Writing custom CSS for a real-world website
+- Creating hover effects and animations
+- Using AOS animations
+- Adding icons through external icon libraries
+- Using JavaScript DOM manipulation
+- Showing and hiding content dynamically
+- Adding Google Maps embed links
+- Managing images and assets in a project folder
+- Making a website responsive for different screen sizes
 
+---
 
-CSS (style.css)
+## 🚀 Future Improvements
 
-•	Global Styles:
+- Add a search feature for national parks
+- Add filtering by location or category
+- Replace alert-style/simple detail display with modern modal popups
+- Improve contact form validation using JavaScript
+- Add backend functionality for storing user messages
+- Improve accessibility with better `alt` text for all images
+- Add smooth scrolling for navigation links
+- Add loading optimization for large images
+- Add dark/light mode toggle
+- Deploy the website on GitHub Pages, Netlify, or Vercel
 
-o	Universal selector to reset margins and paddings, and apply a box-sizing model.
+---
 
-o	Font-family set to 'Uchen' from Google Fonts.
+## 👨‍💻 Author
 
-•	Navbar:
+**Danish Khan**  
+Software Engineering Student | Frontend Developer
 
-o	Dark background with white text and hover effects for navigation links.
+- GitHub: [@danishkhan136](https://github.com/danishkhan136)
+- Project Repository: [National Park Responsive Website](https://github.com/danishkhan136/National_Park_Project_Responsive)
 
-o	Icons with hover effects to elevate user interaction.
+---
 
-•	Home Section:
+## ⭐ Support
 
-o	Full-width background image with a dark overlay.
+If you like this project, consider giving it a star on GitHub.
 
-o	Large, bold, white text with shadow effects for readability.
+---
 
-•	Cards and Sections:
+## 📄 License
 
-o	Consistent card styling with box shadows and hover effects.
+This project is created for educational and portfolio purposes.
 
-o	Sections for parks, gallery, about, and contact are styled with appropriate margins, text alignment, and background colors.
+---
 
-
-
-•	Responsive Design:
-
-o	Media queries for different screen sizes ensuring a flexible and adaptable layout.
-
-
-
-
-
-
-
-JavaScript (scrpt.js)
-
-•	Event Listeners:
-
-o	Scripts to handle 'read more' button clicks, displaying alerts with additional information about each park.
-
-Functionality
-
-•	Interactivity:
-
-o	Navbar links facilitate smooth navigation to different sections.
-
-o	'Read more' buttons provide interactive elements to engage users.
-
-o	Contact form enables users to send messages.
-
-•	AOS Animations:
-
-o	Smooth animations enhance user experience by animating elements on scroll.
-
-Performance and Usability
-
-•	Performance:
-
-o	The use of external libraries like Bootstrap and AOS ensures quick development but might slightly impact loading times. Optimizations such as minimizing CSS and JavaScript files can improve performance.
-
-•	Usability:
-
-o	Clear and intuitive navigation makes it easy for users to find information.
-
-o	Responsive design ensures the website is accessible on various devices, from desktops to smartphones.
-
-
-
-Recommendations
-
-•	Accessibility:
-
-o	Ensure all images have alt attributes for better accessibility.
-
-o	Consider using ARIA landmarks to improve navigation for screen readers.
-
-•	Enhancements:
-
-o	Implement modal pop-ups for 'read more' instead of alerts for a better user experience.
-
-o	Add more detailed descriptions and images in the park cards to provide richer content.
-
-Conclusion
-
-The National Park website is well-designed with a focus on minimalism and usability. It effectively showcases various national parks through visually appealing sections and interactive elements. With some optimizations and enhancements, the website can further improve in performance and user engagement.
-
-
-
-
-
+### Made with dedication by **Danish Khan**
