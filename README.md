@@ -16,9 +16,7 @@ This project is designed to showcase different national parks, wildlife informat
 
 Add your deployed project link here:
 
-```text
-https://your-live-demo-link.com
-```
+https://danishkhan136.github.io/National_Park_Project_Responsive/
 
 ---
 
